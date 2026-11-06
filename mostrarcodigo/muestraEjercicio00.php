@@ -11,26 +11,15 @@
         <title>Santiago González Vicente</title>
     </head>
     <body>
-        <header><h1>Codigo ejercicio 12</h1></header>
-        <h1><a href='../indexProyectoTema3.php'>volver</a></h1>
+        <header><h1>Codigo ejercicio 0</h1></header>
+        <h1><a href='../indexProyectoTema5.php'>volver</a></h1>
         <pre>
-            <code style="color: #000000">&lt;!DOCTYPE html&gt;
-            &lt;!--
-            Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-            Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to edit this template
-            --&gt;
-            &lt;html&gt;
-                &lt;head&gt;
-                    &lt;meta charset="UTF-8"&gt;
-                    &lt;title&gt;&lt;/title&gt;
-                &lt;/head&gt;
-                &lt;body&gt;
+            <code style="color: #000000">
                 <blockquote>
                     <?php
-                        highlight_file("../codigoPHP/ejercicio12.php");
+                        highlight_file("../codigoPHP/ejercicio00.php");
                     ?>
-                </blockquote>    &lt;/body&gt;
-            &lt;/html&gt;
+                </blockquote>
             </code>
         </pre>
     </body>

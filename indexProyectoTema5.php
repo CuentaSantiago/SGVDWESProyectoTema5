@@ -21,15 +21,15 @@
             <tbody>
                 <tr>
                     <th>Creacion Base de datos y Usuario</th>
-                    <th><a href="mostrarcodigo/mostrarCreaDBSGVDWESProyectoTema4.php">Mostrar</a></th>
+                    <th><a href="mostrarcodigo/mostrarCreaDBSGVDWESProyectoTema5.php">Mostrar</a></th>
                 </tr>
                 <tr>
                     <th>Creacion Tabla</th>
-                    <th><a href="mostrarcodigo/mostrarCargaInicialDBSGVDWESProyectoTema4.php">Mostrar</a></th>
+                    <th><a href="mostrarcodigo/mostrarCargaInicialDBSGVDWESProyectoTema5.php">Mostrar</a></th>
                 </tr>
                 <tr>
                     <th>Borrar Base de datos y Usuario</th>
-                    <th><a href="mostrarcodigo/mostrarBorraDBSGVDWESProyectoTema4.php">Mostrar</a></th>
+                    <th><a href="mostrarcodigo/mostrarBorraDBSGVDWESProyectoTema5.php">Mostrar</a></th>
                 </tr>
                 <tr>
                     <th>Libreria</th>
@@ -49,7 +49,14 @@
             <tbody>
                 <tr>
                     <td>0</td>
-                    <td>Conexión a la base de datos con la cuenta usuario y tratamiento de errores.</td>
+                    <td>Mostrar el contenido de las variables superglobales y phpinfo().</td>
+                    <td><a href="codigoPHP/ejercicio00.php">Ejecutar</a></td>
+                    <td><a href="mostrarcodigo/muestraEjercicio00.php">Mostrar</a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Desarrollo de un control de acceso con identificación del usuario basado en la función header()<br>
+                    ProyectoTema5.</td>
                     <td><a href="codigoPHP/ejercicio01.php">Ejecutar</a></td>
                     <td><a href="mostrarcodigo/muestraEjercicio01.php">Mostrar</a></td>
                 </tr>
