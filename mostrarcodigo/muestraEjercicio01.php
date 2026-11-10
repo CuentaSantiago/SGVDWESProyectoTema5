@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--
+    Autor: Santiago González Vicente
+    Fecha Modificacion: 2026-09-28
+    Descripcion: Indice DAW2
+    -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Santiago González Vicente</title>
+    </head>
+    <body>
+        <header><h1>Codigo ejercicio 1</h1></header>
+        <h1><a href='../indexProyectoTema5.php'>volver</a></h1>
+        <pre>
+            <code style="color: #000000">
+                <blockquote>
+                    <?php
+                        highlight_file("../codigoPHP/ejercicio01.php");
+                    ?>
+                </blockquote>
+            </code>
+        </pre>
+    </body>
+</html>
