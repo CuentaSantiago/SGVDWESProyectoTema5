@@ -3,6 +3,7 @@ Ejercicio 2
     require_once '../config/configDBPDO.php';
     $Valido=false;
     $_SERVER['PHP_AUTH_USER']=null;
+    $_SERVER['PHP_AUTH_PW']=null;
 if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW'])) {
     header('WWW-Authenticate: Basic realm="ProyectoTema5"');
     header('HTTP/1.1 401 Unauthorized');
