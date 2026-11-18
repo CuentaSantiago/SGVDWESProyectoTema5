@@ -3,19 +3,15 @@ Ejercicio 2
     require_once '../config/configDBPDO.php';
     $Valido=false;
     $_SERVER['PHP_AUTH_USER']=null;
+    $_SERVER['PHP_AUTH_PW']=null;
 if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW'])) {
-    header('WWW-Authenticate: Basic realm="ProyectoTema5"');
-    header('HTTP/1.1 401 Unauthorized');
-    exit;
-}
-else{
     header('WWW-Authenticate: Basic realm="ProyectoTema5"');
     header('HTTP/1.1 401 Unauthorized');
     exit;
 }
     try{
         $miDB = new PDO(DSN,USERNAME,PASSWORD);
-        $sql = "SELECT 1 FROM T01_Usuario WHERE T01_CodUsuario = :usuario AND T01_Password = sha2(:contras, 256)";
+        $sql = "SELECT * FROM T01_Usuario WHERE T01_CodUsuario = :usuario AND T01_Password = sha2(:contras, 256)";
         $consulta = $miDB->prepare($sql);
         $consulta->execute([
             ':usuario' => $_SERVER['PHP_AUTH_USER'],
@@ -29,7 +25,7 @@ else{
     } finally {
         unset($miDB);
     }
-    if (!$usuarioValido) {
+    if (!$Valido) {
         header('WWW-Authenticate: Basic realm="Contenido restringido"');
         header('HTTP/1.0 401 Unauthorized');
         echo '<h1>Acceso denegado. Se requiere autenticación.</h1>';

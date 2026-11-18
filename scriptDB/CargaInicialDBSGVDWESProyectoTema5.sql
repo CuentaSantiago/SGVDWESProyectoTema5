@@ -1,5 +1,5 @@
 USE DBSGVDWESProyectoTema5;
-INSERT INTO T01_Usuario() VALUES
+INSERT INTO T01_Usuario(T01_CodUsuario, T01_Password, T01_DescUsuario) VALUES
     ('heraclio', SHA2('paso',256), 'Heraclio Borbujo'),
     ('alvaro', SHA2('paso',256), 'Alvaro Calderon'),
     ('moises', SHA2('paso',256), 'Moises Alberto Dominguez'),

@@ -24,7 +24,7 @@
                     <th><a href="mostrarcodigo/mostrarCreaDBSGVDWESProyectoTema5.php">Mostrar</a></th>
                 </tr>
                 <tr>
-                    <th>Creacion Tabla</th>
+                    <th>Datos Tabla</th>
                     <th><a href="mostrarcodigo/mostrarCargaInicialDBSGVDWESProyectoTema5.php">Mostrar</a></th>
                 </tr>
                 <tr>
@@ -33,7 +33,11 @@
                 </tr>
                 <tr>
                     <th>Libreria</th>
-                    <th><a href="mostrarcodigo/231018libreriaValidacion.php">Mostrar</a></th>
+                    <th><a href="mostrarcodigo/mostrar231018libreriaValidacion.php">Mostrar</a></th>
+                </tr>
+                <tr>
+                    <th>Conexion DB</th>
+                    <th><a href="mostrarcodigo/mostrarConexionDB.php">Mostrar</a></th>
                 </tr>
             </tbody>
         </table><br>
@@ -61,7 +65,7 @@
                     <td><a href="mostrarcodigo/muestraEjercicio01.php">Mostrar</a></td>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td>2</td>
                     <td>Desarrollo de un control de acceso con identificación del usuario<br> 
                         basado en la función header() y en el uso de una tabla “Usuario” de la<br> 
                         base de datos. (PDO)</td>
